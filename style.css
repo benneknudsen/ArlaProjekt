@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+a {
+  color: white;
+}
+
+span {
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+body {
+background-image: url(billeder/baggrund.png);
+background-repeat: no-repeat;
+background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+@font-face {
+  font-family: "ArlaRegular";
+  src: url("Arlagaarden/fonts/ArlaIF_W_Rg.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ArlaBlack";
+  src: url("Arlagaarden/fonts/ArlaIF_W_blk.ttf") format("truetype");
+}
+
+.btn {
+  border: none;
+  outline: none;
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.knap {
+  position: absolute;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  height: 40px;
+  width: 22%;
+  top: 5%;
+  left: -17%;
+  color: #4BB131;
+  background-color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btnaktiv {
+  border: none;
+  border-right: 4px solid #4BB131;
+  outline: none;
+  height: 90px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.active, .btn:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+
+.some-page-wrapper {
+  margin: 50px 120px;
+
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.side-column {
+  background-color: white;
+  height: 90px;
+  width: 15%;
+  border-bottom: 1px solid black;
+
+}
+
+.sektion-column {
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 85%;
+    border-bottom: 1px solid black;
+    position: relative;
+    color: white;
+
+
+}
+
+.venstre-column {
+  background-color: white;
+  height: 540px;
+  width: 15%;
+
+}
+
+.main-column {
+    height: 540px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 85%;
+    position: relative;
+
+
+}
+
+.fa-arrow-alt-circle-left {
+  position: absolute;
+  padding-top: 10px;
+  color: white;
+
+
+}
+
+
+
+.inputwrapper {
+  height: 566px;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 9px 45px;
+
+
+}
+
+.fas {
+  margin: 15px 20px 3px 25px;
+  font-size: 40px;
+  color: #4BB131;
+
+}
+
+.far {
+  margin: 15px 20px 3px 25px;
+  font-size: 40px;
+  color: #fff;
+
+}
+
+.billede {
+  width: 50px;
+}
+
+.header {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  padding: 15px;
+  font-family: ArlaRegular;
+
+}
+
+
+
+.sektion {
+  background-color: black;
+  filter: opacity(1);
+  color: white;
+  text-align: center;
+  height: 84px;
+}
+
+.sektion p {
+  padding-top: 14px;
+  line-height: 50px;
+ font-size: 34px;
+}
+
+.tags {
+  height: 90px;
+}
+
+.navne {
+font-size: 20px;
+color: #4BB131;
+text-align: center;
+}
+
+#field {
+  margin: 0 200px;
+	width:360px;
+	height: 47px;
+	line-height:27px;
+	text-indent:10px;
+	font-family:arial, sans-serif;
+	font-size:1em;
+	color:#333;
+	background: #fff;
+  border-radius: 25px;
+	border:solid 1px #d9d9d9;
+	border-top:solid 1px #c0c0c0;
+	border-right:none;
+}
+
+.textside {
+  text-align: center;
+  font-family: ArlaRegular;
+  color: white;
+position: absolute;
+right: -15%;
+width: 140px;
+top: 55%;
+
+font-size: 20px;
+
+
+}
+
+.textside1 {
+  text-align: center;
+  font-family: ArlaRegular;
+  color: white;
+position: absolute;
+left: -30%;
+
+top: 55%;
+
+font-size: 20px;
+
+
+}
+
+.tal {
+    text-align: center;
+    font-family: ArlaBlack;
+    color: #4BB131;
+  position: absolute;
+  left: 42%;
+
+  top: 60%;
+
+  font-size: 47px;
+
+
+
+}
+
+.heads {
+  text-align: center;
+  font-family: ArlaRegular;
+  color: white;
+position: absolute;
+
+left: 43.5%;
+top: 5%;
+
+font-size: 30px;
+
+
+}
+
+.scuf {
+  background-color: #4BB131;
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  bottom: 0;
+}
+
+.texti {
+  text-align: center;
+  font-family: ArlaRegular;
+  color: white;
+  margin: 20px 120px;
+  font-size: 20px;
+}
+
+
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  padding-top: 80px;
+  height: 40vh;
+  width: 40vw;
+
+}
