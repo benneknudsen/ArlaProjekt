@@ -27,12 +27,12 @@ background-size: cover;
 
 @font-face {
   font-family: "ArlaRegular";
-  src: url("Arlagaarden/fonts/ArlaIF_W_Rg.ttf") format("truetype");
+  src: url("../ArlaProjekt/fonts/ArlaIF_W_Rg.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "ArlaBlack";
-  src: url("Arlagaarden/fonts/ArlaIF_W_blk.ttf") format("truetype");
+  src: url("../ArlaProjekt/fonts/ArlaIF_W_blk.ttf") format("truetype");
 }
 
 .btn {
